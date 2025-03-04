@@ -1,6 +1,5 @@
-
 import React, { useState } from 'react';
-import { Search, Filter, Calendar } from 'lucide-react';
+import { Search, Filter, Calendar, Plus, Users } from 'lucide-react';
 import { Input } from '@/components/ui/input';
 import { Button } from '@/components/ui/button';
 import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs';
@@ -13,7 +12,6 @@ const Discover = () => {
   const [searchQuery, setSearchQuery] = useState('');
   const [selectedCenter, setSelectedCenter] = useState<{ id: number; name: string } | null>(null);
   
-  // Mock data
   const sportsCenters: Omit<SportsCenterProps, 'onClick'>[] = [
     {
       id: 1,
