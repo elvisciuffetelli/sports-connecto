@@ -31,7 +31,7 @@ const Messages = () => {
       id: 3,
       name: 'Basketball Group',
       avatar: 'https://images.unsplash.com/photo-1518063319789-7217e6706b04?q=80&w=100',
-      lastMessage: 'Michael: I'll bring an extra ball just in case',
+      lastMessage: "Michael: I'll bring an extra ball just in case",
       time: 'Mon',
       unread: false
     }
